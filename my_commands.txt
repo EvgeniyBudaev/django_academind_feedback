@@ -1,2 +1,5 @@
 # Создание нового приложения
 python manage.py startapp reviews
+
+# Запуск сервера
+python manage.py runserver
