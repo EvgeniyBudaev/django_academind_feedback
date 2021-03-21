@@ -25,8 +25,8 @@ def review(request):
     form = ReviewForm(request.POST)
     if form.is_valid():
       return HttpResponseRedirect("/thank-you")
-
-  form = ReviewForm()
+  else:
+    form = ReviewForm()
 
   return render(request, "reviews/review.html", {
     "form": form
