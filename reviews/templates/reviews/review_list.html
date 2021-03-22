@@ -8,5 +8,8 @@
     {% for review in reviews %}
       <li>{{ review.user_name }} (Rating: {{ review.rating }})</li>
     {% endfor %}
+{#    {% for review in object_list %}#}
+{#      <li>{{ review.user_name }} (Rating: {{ review.rating }})</li>#}
+{#    {% endfor %}#}
   </ul>
 {% endblock %}
