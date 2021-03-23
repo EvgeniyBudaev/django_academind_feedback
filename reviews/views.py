@@ -134,5 +134,11 @@ class SingleReviewView(DetailView):
   model = Review
 
 
+class AddFavoriteView(View):
+  def post(self, request):
+    review_id = request.POST['review_id']
+    fav_review = Review.objects.get(pk=review_id)
+
+
 
 
