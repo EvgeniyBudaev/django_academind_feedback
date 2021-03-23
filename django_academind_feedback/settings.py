@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'reviews',
-    'profiles'
+    'profiles',
 ]
 
 MIDDLEWARE = [
@@ -124,3 +124,5 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = BASE_DIR / "uploads"
 MEDIA_URL ="/user-media/"
+
+# SESSION_COOKIE_AGE = 120
