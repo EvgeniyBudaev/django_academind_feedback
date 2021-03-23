@@ -20,3 +20,6 @@ UserProfile.objects.all()
 UserProfile.objects.all()[0].image
 UserProfile.objects.all()[0].image.path
 
+# Install
+python -m pip install pillow
+
